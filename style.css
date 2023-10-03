@@ -1,0 +1,59 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("fall_time.jpg");
+    background-size: cover;
+}
+
+#searchResults {
+    margin-top: 10px;
+    visibility: hidden;
+}
+
+#time {
+    margin-top: 10px;
+    visibility: hidden;
+}
+
+.logo {
+    max-width: 25%;
+    max-height: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.engineTitle {
+    color: white;
+    font-family: cursive;
+    font-size: 4em; 
+}
+
+.textBox {
+    height: 30px;
+    width: 400px;
+    font-size: 10pt;
+    border-radius: 25px;
+}
+
+.searchButton {
+    margin-top: 10px;
+    margin-left: 230px;
+    position: absolute;
+}
+
+.timeButton {
+    margin-top: 35px;
+    margin-left: 150px;
+    position: absolute;
+    border-radius: 100px;
+}
+
+.content {
+    text-align: center;
+    position: absolute;
+    white-space: nowrap;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

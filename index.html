@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <title>Haystack</title>
+    <!--<link rel="shortcut icon" type="image/x-icon" href="./9443HaystackNeedle.ico">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="./9443HaystackNeedle.ico">-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css"
+          integrity="sha384-s5lqL1NMu1TdDS/75EsR2IKqj5g2SbplE63nRqwT70/kcm2uFLqKGOCp1phJ2ENd"
+          crossorigin="anonymous">
+
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/fontawesome.min.css"
+          type="text/css"
+          integrity="sha384-bGIKHDMAvn+yR8S/yTRi+6S++WqBdA+TaJ1nOZf079H6r492oh7V6uAqq739oSZC"
+          crossorigin="anonymous">-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css"
+          integrity="sha384-iw3OoTErCYJJB9mCa8LNS2hbsQ7M3C0EpIsO/H5+EGAkPGc6rk+V8i04oW/K5xq0"
+          crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"
+            integrity="sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL"
+            crossorigin="anonymous"></script>
+</head>
+
+<body id="background_image">
+    <script type="text/javascript" src="./script.js"></script>
+    <div class="content">
+        <img src="HaystackNeedle.png" class="logo" />
+        <h1 class="engineTitle" onclick="changeBackGroundImage()">Haystack</h1>
+        <i class="fa-solid fa-magnifying-glass" style="color: white"></i>
+        <input type="text" id="query" name="ID" placeholder="Search..." class="textBox" />
+        <div style="margin-top: 10px">
+            <button type="button" onclick="onAPISearchClick()" style="clear: right">Search</button>
+            <button type="button" onclick="onTimeButtonClick()">Click here to display the current time</button>
+        </div>
+        <div id="searchResults" style="color: white"></div>
+        <div id="time" style="color: black"></div>
+    </div>
+</body>
+
+</html>
